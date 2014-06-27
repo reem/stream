@@ -7,8 +7,8 @@ gulp.task('lint', function () {
   'use strict';
   return gulp.src('./lib/**/*.js')
     .pipe(jshint())
-    .pipe(jshint.reporter(stylish))
-    .pipe(jshint.reporter('fail'));
+    .pipe(jshint.reporter(stylish));
+    //.pipe(jshint.reporter('fail'));
 });
 
 gulp.task('test', ['lint'], function () {

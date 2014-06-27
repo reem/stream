@@ -11,11 +11,11 @@
   "main": "./lib/index.js",
   "repository": "reem/streamer",
   "devDependencies": {
-    "mocha": "*",
-    "must": "*",
     "gulp": "*",
     "gulp-jshint": "*",
     "gulp-mocha": "*",
-    "jshint-stylish": "*"
+    "jshint-stylish": "*",
+    "mocha": "*",
+    "must": "*"
   }
 }

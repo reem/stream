@@ -1,0 +1,21 @@
+{
+  "name": "streamer",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
+  },
+  "author": {
+    "url": "https://github.com/reem"
+  },
+  "main": "./lib/index.js",
+  "repository": "reem/streamer",
+  "devDependencies": {
+    "mocha": "*",
+    "must": "*",
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-mocha": "*",
+    "jshint-stylish": "*"
+  }
+}
